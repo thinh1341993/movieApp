@@ -1,0 +1,27 @@
+import { distance } from './distance'
+
+export const spacing = {
+    w45: 45 / distance.uiWidth * distance.windowWidth,
+    w20: 20 / distance.uiWidth * distance.windowWidth,
+    w21: 21 / distance.uiWidth * distance.windowWidth,
+    w16: 16 / distance.uiWidth * distance.windowWidth,
+    w19: 19 / distance.uiWidth * distance.windowWidth,
+    w27: 27 / distance.uiWidth * distance.windowWidth,
+    w38: 38 / distance.uiWidth * distance.windowWidth,
+    w40: 40 / distance.uiWidth * distance.windowWidth,
+    w15: 15 / distance.uiWidth * distance.windowWidth,
+    h14: 14 / distance.uiHeight * distance.windowHeight,
+    h15: 15 / distance.uiHeight * distance.windowHeight,
+    h55: 55 / distance.uiHeight * distance.windowHeight,
+    h8: 8 / distance.uiHeight * distance.windowHeight,
+    h29: 29 / distance.uiHeight * distance.windowHeight,
+    h21: 21 / distance.uiHeight * distance.windowHeight,
+    h33: 33 / distance.uiHeight * distance.windowHeight,
+    h17: 17 / distance.uiHeight * distance.windowHeight,
+    h46: 46 / distance.uiHeight * distance.windowHeight,
+    h24: 24 / distance.uiHeight * distance.windowHeight,
+    h5: 5 / distance.uiHeight * distance.windowHeight,
+    h19: 19 / distance.uiHeight * distance.windowHeight,
+    h28: 28 / distance.uiHeight * distance.windowHeight,
+    h13: 13 / distance.uiHeight * distance.windowHeight,
+}
