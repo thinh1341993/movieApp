@@ -1,0 +1,6 @@
+export * from './01.splash_Screen/splashScreen'
+export * from './02.Onboarding/onboarding'
+export * from './03.Login/login'
+export * from './04.Register/register'
+export * from './05.Forgot_password/forgotPassword'
+export * from './06.Home/home'

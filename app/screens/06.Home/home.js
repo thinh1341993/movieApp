@@ -19,7 +19,7 @@ const home = () => {
     const { landscape } = useDeviceOrientation();
     const [nowPlaying, setNowPlaying] = useState([]);
     const [genre, setGenre] = useState([]);
-    const [nameCategories, setNameCategories] = useState('Watching')
+    const [nameCategories, setNameCategories] = useState('Top New')
     const [choiceCategories, setChoiceCategories] = useState(0)
     const [watching, setWatching] = useState([]);
     const [topRate, setTopRate] = useState([]);

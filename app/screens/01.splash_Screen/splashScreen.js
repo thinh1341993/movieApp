@@ -3,7 +3,7 @@ import { View, Text, ImageBackground, Image } from 'react-native'
 import styles from './style'
 import * as Progress from 'react-native-progress';
 
-const flashScreen = () => {
+const SplashScreen = () => {
     return (
         <ImageBackground
             source={require('../../assets/Image1_3x.png')}
@@ -19,4 +19,4 @@ const flashScreen = () => {
     )
 }
 
-export default flashScreen
+export default SplashScreen
