@@ -1,11 +1,11 @@
-const userId = ''
+const userId = 'thinh';
 
 export default function reducer(state = userId, action) {
-    switch (action.type) {
-        case 'SIGN_IN':
-            state = action.payload
-            return state
-        default:
-            return state
-    }
+  switch (action.type) {
+    case 'SIGN_IN':
+      state = action.payload;
+      return state;
+    default:
+      return state;
+  }
 }
